@@ -5,7 +5,8 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: #f2ebe9;
+	color: #97a29d;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
@@ -15,6 +16,39 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+
+.necklace {
+
+	border: 5px solid #97a29d;
+}
+.company {
+	border: 5px solid #cbcdcc;
+}
+
+.company:hover {
+	border: 5px solid #767e7c;
+}
+
+h1{
+	border-bottom: 1px solid #cbcdcc;
+	padding: 10px;
+	margin: 7px;
+	font-size: 70px;
+	font-family: "Libre Baskerville", serif;
+	font-weight: lighter;
+}
+
+p {
+	color: rgba(0, 0, 0, 0.562);
+}
+
+.source {
+	position:relative;
+	top:20px;
+	bottom: 20px;
+	left: 680px;
 }
 
 /* Write all remaining styles here */
